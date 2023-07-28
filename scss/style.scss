@@ -1,0 +1,132 @@
+$bgAqua: aquamarine;
+$bgAqua1: rgb(97, 255, 202);
+$brBlockGm: 2px solid rgb(36, 196, 143);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.game {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.game button {
+    
+    margin: -2px;
+    background-color: aquamarine;
+}
+
+.row div:hover {
+    background-color: $bgAqua1;
+    cursor: pointer;
+}
+.cell {
+	border: none;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 60px;
+	text-align: center;
+	cursor: pointer;
+    background-color: aquamarine;
+    color: rgb(36, 196, 143);
+}
+.cell:active {
+	outline: none;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+#a1 {
+    width: 150px;
+    height: 150px;
+    border-left: 0;
+    border-bottom: $brBlockGm;
+    border-right: $brBlockGm;
+    border-top: 0;
+}
+
+
+#a2 {
+    width: 150px;
+    height: 150px;
+    border-left: $brBlockGm;
+    border-bottom: $brBlockGm;
+    border-right: $brBlockGm;
+    border-top: 0;
+}
+
+#a3 {
+    width: 150px;
+    height: 150px;
+    border-left: $brBlockGm;
+    border-bottom: $brBlockGm;
+    border-right: 0;
+    border-top: 0;
+}
+
+#b1 {
+    width: 150px;
+    height: 150px;
+    border-left: 0;
+    border-bottom: $brBlockGm;
+    border-right: $brBlockGm;
+    border-top: $brBlockGm;
+}
+
+
+#b2 {
+    width: 150px;
+    height: 150px;
+    border-left: $brBlockGm;
+    border-bottom: $brBlockGm;
+    border-right: $brBlockGm;
+    border-top: $brBlockGm;
+}
+
+#b3 {
+    width: 150px;
+    height: 150px;
+    border-left: $brBlockGm;
+    border-bottom: $brBlockGm;
+    border-right: 0;
+    border-top: $brBlockGm;
+}
+
+#c1 {
+    width: 150px;
+    height: 150px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: $brBlockGm;
+    border-top: $brBlockGm;
+}
+
+
+#c2 {
+    width: 150px;
+    height: 150px;
+    border-bottom: 0;
+    border-right: $brBlockGm;
+    border-top: $brBlockGm;
+    border-left: $brBlockGm;
+}
+
+#c3 {
+    width: 150px;
+    height: 150px;
+    border-bottom: 0;
+    border-top: $brBlockGm;
+    border-right: 0;
+    border-left: $brBlockGm;
+}
